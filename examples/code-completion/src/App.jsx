@@ -127,6 +127,41 @@ function App() {
   const showLoading = ready === false || progressItems.length > 0
 
   return (
+    
+    <div class="navbar">
+        <div class="navbar-center">
+            
+   <a class='btn btn-success' href='https://inoculate.media' target="_blank">Inoculate Media and Haawke Neural Technology</a>
+            <a href="http://haawke.neural.inoculate.media/" class="btn btn-success" target="_blank">Gallery</a>
+            <a class='btn btn-success' href='http://inoculate.media/main' target='_blank'>Projects</a>
+            <a class='btn btn-success' href='https://huggingface.co/HaawkeNeural' target='_blank'>Research</a>
+            <a class='btn btn-success' href='https://inoculate.media/demos/demos.html' target='_blank'>Audio Demos</a>
+            <a class='btn btn-success' href='https://inoculate.media/machine_learning/index.html' target='_blank'>Machine Learning</a>
+<div class="dropdown dropdown-hover dropdown-end">
+        <div tabindex="0" role="button" class='btn btn-success' target='_blank'>Machine Learning</div>
+        <ul tabindex="0" class="menu dropdown-content z-[1] p-2 shadow bg-info rounded-box w-52 mt-4">
+         <li><a href="https://transformers-js-tau.vercel.app/" target='_blank'>Image Search</a></li>
+            <li><a href="https://github.com/inoculate23/media/blob/main/machine_learning/index.html" target='_blank'>Image Classification</a></li> 
+             <li><a href="https://transformersjs2-text-to-audio.vercel.app/" target='_blank'>Text To Speech</a></li>
+          <li><a href="https://inoculate.media/transcriber/index.html" target='_blank'>Speech Recognition</a></li>
+            <li><a href="https://transformers-js-iota.vercel.app/" target='_blank'>Multi-Language Translation</a></li>
+          <li><a href="https://transformers-js-1ips.vercel.app/" target='_blank'>Code Completion</a></li>
+        </ul>
+      </div>
+    </div>
+            <a href="http://inoculate.media/about/index.html" class="btn btn-success" target="_blank">About</a>
+            <a href="mailto:craig@inoculate.media&cc=terbo@inoculate.media&subject=Web Contact" target="_blank" class="btn btn-warning text-xl">Contact</a>
+            <a href='https://github.com/inoculate23' target='_blank'><img src="https://inoculate.media/demos/images/gh.png" height="35px" alt="github" /></a>
+            <a href='https://www.youtube.com/@inoculatemedia' target='_blank'><img src="https://inoculate.media/demos/images/youtube.png" height="35px" alt="youtube" /></a>
+            <a href='https://twitter.com/MediaInoculate' target='_blank'><img src="https://inoculate.media/demos/images/twitter.png" height="35px" alt="twitter" /></a>
+            <div class="navbar-end">
+
+            </div>
+        </div>
+
+    </div>
+
+    
     <div className="flex h-screen w-screen">
       <div className="gap-1 z-50 top-0 left-0 absolute w-full h-full transition-all px-32 flex flex-col justify-center text-center" style={{
         opacity: showLoading ? 1 : 0,
