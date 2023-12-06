@@ -92,7 +92,7 @@ function App() {
 
   return (
     <>
-      <img id="logo" src="https://inoculate.assets/haawke_spinner/logo.webp" width="85px" />
+      <img id="logo" src="https://inoculate.media/haawke_spinner/logo.webp" width="85px" />
       <h1>Haawke Neural Technology</h1>
       <h2>AI-powered multilingual translation</h2>
 
