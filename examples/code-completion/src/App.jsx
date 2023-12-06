@@ -159,8 +159,6 @@ function App() {
             </div>
         </div>
 
-    </div>
-
     
     <div className="flex h-screen w-screen">
       <div className="gap-1 z-50 top-0 left-0 absolute w-full h-full transition-all px-32 flex flex-col justify-center text-center" style={{
