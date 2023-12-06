@@ -166,7 +166,7 @@ function App() {
         pointerEvents: showLoading ? 'all' : 'none',
         background: 'rgba(0, 0, 0, 0.5)',
         backdropFilter: 'blur(4px)',
-      }}>
+      }}
 
         {ready === false && (
           <label className="text-3xl p-3">Loading model...</label>
