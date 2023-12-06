@@ -92,7 +92,7 @@ function App() {
 
   return (
     <>
-     <iframe id="iframe" src="https://inoculate.media/assets/haawke_spinner/index.html" width="40%" height="40%"></iframe>
+     <iframe id="iframe" src="https://inoculate.media/assets/haawke_spinner/index.html" width="700px" height="360px"></iframe>
       <h1>Haawke Neural Technology</h1>
       <h2>AI-powered multilingual translation</h2>
 
