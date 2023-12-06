@@ -92,8 +92,9 @@ function App() {
 
   return (
     <>
-      <h1>Transformers.js</h1>
-      <h2>ML-powered multilingual translation in React!</h2>
+      <img id="logo" src="https://inoculate.assets/haawke_spinner/logo.webp" width="85px" />
+      <h1>Haawke Neural Technology</h1>
+      <h2>AI-powered multilingual translation</h2>
 
       <div className='container'>
         <div className='language-container'>
