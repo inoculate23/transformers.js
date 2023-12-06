@@ -137,6 +137,7 @@ function App() {
             <a class='btn btn-success' href='https://huggingface.co/HaawkeNeural' target='_blank'>Research</a>
             <a class='btn btn-success' href='https://inoculate.media/demos/demos.html' target='_blank'>Audio Demos</a>
             <a class='btn btn-success' href='https://inoculate.media/machine_learning/index.html' target='_blank'>Machine Learning</a>
+            </div>
 <div class="dropdown dropdown-hover dropdown-end">
         <div tabindex="0" role="button" class='btn btn-success' target='_blank'>Machine Learning</div>
         <ul tabindex="0" class="menu dropdown-content z-[1] p-2 shadow bg-info rounded-box w-52 mt-4">
@@ -158,7 +159,7 @@ function App() {
             </div>
         </div>
        </div>
-           </div>
+         
     
     <div className="flex h-screen w-screen">
       <div className="gap-1 z-50 top-0 left-0 absolute w-full h-full transition-all px-32 flex flex-col justify-center text-center" style={{
