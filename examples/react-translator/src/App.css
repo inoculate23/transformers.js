@@ -10,6 +10,13 @@
   gap: 20px;
 }
 
+#logo {
+  position:relative;
+  margin-left:40%;
+  margin-right:40%;
+  margin-top: 12%;
+}
+  
 .textbox-container {
   display: flex;
   justify-content: center;
