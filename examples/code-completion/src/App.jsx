@@ -147,14 +147,13 @@ function App() {
             <li><a href="https://transformers-js-iota.vercel.app/" target='_blank'>Multi-Language Translation</a></li>
           <li><a href="https://transformers-js-1ips.vercel.app/" target='_blank'>Code Completion</a></li>
         </ul>
-      </div>
-    </div>
+
             <a href="http://inoculate.media/about/index.html" class="btn btn-success" target="_blank">About</a>
             <a href="mailto:craig@inoculate.media&cc=terbo@inoculate.media&subject=Web Contact" target="_blank" class="btn btn-warning text-xl">Contact</a>
             <a href='https://github.com/inoculate23' target='_blank'><img src="https://inoculate.media/demos/images/gh.png" height="35px" alt="github" /></a>
             <a href='https://www.youtube.com/@inoculatemedia' target='_blank'><img src="https://inoculate.media/demos/images/youtube.png" height="35px" alt="youtube" /></a>
             <a href='https://twitter.com/MediaInoculate' target='_blank'><img src="https://inoculate.media/demos/images/twitter.png" height="35px" alt="twitter" /></a>
-            <div class="navbar-end">
+       
 
             </div>
         </div>
