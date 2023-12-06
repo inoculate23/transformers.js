@@ -276,8 +276,7 @@ function App() {
 
           <a className="text-white font-normal underline underline-offset-1" href="https://github.com/xenova/transformers.js/tree/main/examples/code-completion">Source code</a>
         </div>
-      </div>
-    </div>
+   
   );
 }
 
