@@ -28,7 +28,7 @@ function setup() {
   speechRec.start(continuous, interimResults);
 
   // DOM element to display results
-  let output = select(textarea#input.value);
+  let output = textarea(#input.value);
 
   // Speech recognized event
   function gotSpeech() {
