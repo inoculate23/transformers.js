@@ -12,7 +12,7 @@ function setup() {
   speechRec.start(continuous, interimResults);
 
   // DOM element to display results
-  let output = select('#speech');
+  let output = select('#input');
 
   // Speech recognized event
   function gotSpeech() {
